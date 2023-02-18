@@ -175,5 +175,9 @@ svg {
     font-size: 18px;
     font-weight: 100;
 }
+@media(max-width:1200px) {
+ li{
+    padding: 5px;
+ }
 
-
+}

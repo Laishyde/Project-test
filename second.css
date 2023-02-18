@@ -119,4 +119,7 @@ li:active {
         text-align: center;
 
     }
+    li{
+        padding: 5px;
+    }
 }

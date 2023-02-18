@@ -1,9 +1,10 @@
-@media(max-width:900px){
+@media(max-width:1200px){
     .nav{
        width: 100%;
         background-image: url(./assets/teste3.png);
         background-position: center;
         background-size: cover;
+        position: center;
        
     }
     .it{
@@ -17,21 +18,35 @@
     }
     .container{
         padding: 0;
+        margin: 0;
     }
     .wrap{
         width: 20%;
         height: 300px;
     }
     .information{
-        padding-top: 200px;
+        margin-top: 180px;
+      
      
     }
     .btn{
         height: 90px;
+     
         
     }
     footer p{
-        padding: 20px;
+        padding: 2;
+    }
+    li{
+        padding: 0;
+        margin-right: 30px;
+    }
+    ul{
+       display: flex;
+       justify-content: center;
+    }
+    .image{
+        width: 100%;
     }
    
    
