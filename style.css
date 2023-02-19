@@ -10,23 +10,27 @@ body{
     height: 600px;
     display: flex;
         justify-content: center;
-        border: 4px solid #e59332;
+        
        
 }
 a{
     text-decoration: none;
 }
+/* list */
 ul {
     display: flex;
+    width: 100%;
     height: 80vh;
     margin: auto;
     max-width: 1000px;
-    justify-content: space-between;
     text-align: center;
+    display: flex;
+    justify-content: center;
+
 }
 
 li {
-    padding: 1rem 2rem 1.15rem;
+    padding: 1rem 2rem 1.10rem;
     text-transform: uppercase;
     cursor: pointer;
     color: #ef816c;
@@ -49,27 +53,6 @@ li:active {
     transform: translateY(4px);
 }
 
-@keyframes spring {
-    15% {
-        -webkit-transform-origin: center center;
-        -webkit-transform: scale(1.2, 1.1);
-    }
-
-    40% {
-        -webkit-transform-origin: center center;
-        -webkit-transform: scale(0.95, 0.95);
-    }
-
-    75% {
-        -webkit-transform-origin: center center;
-        -webkit-transform: scale(1.05, 1);
-    }
-
-    100% {
-        -webkit-transform-origin: center center;
-        -webkit-transform: scale(1, 1);
-    }
-}
 
 .shameless-plug {
     position: absolute;

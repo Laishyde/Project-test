@@ -1,53 +1,88 @@
-@media(max-width:1200px){
-    .nav{
-       width: 100%;
+@media(max-width:1200px) {
+    .nav {
+        width: 100%;
         background-image: url(./assets/teste3.png);
         background-position: center;
         background-size: cover;
-        position: center;
-       
-    }
-    .it{
-        width: 50%;
-   
+        text-align: center;
+        align-items: center;
+
     }
 
-   .pro{
-      width: 100px;
-      
+    .it {
+        width: 80%;
+        padding-bottom: 80px;
+
+
     }
-    .container{
+
+    .pro {
+        width: 100px;
+
+    }
+
+    .container {
         padding: 0;
         margin: 0;
+
     }
-    .wrap{
-        width: 20%;
-        height: 300px;
+
+    .wrap {
+        width: 10%;
+        height: 100px;
     }
-    .information{
-        margin-top: 180px;
-      
-     
-    }
-    .btn{
-        height: 90px;
-     
-        
-    }
-    footer p{
-        padding: 2;
-    }
-    li{
-        padding: 0;
-        margin-right: 30px;
-    }
-    ul{
-       display: flex;
-       justify-content: center;
-    }
-    .image{
+
+    .information {
+
         width: 100%;
+        text-align: center;
+
+
+
     }
-   
-   
+
+    .btn img {
+
+        min-width: 200px;
+        min-height: 60px;
+        margin: 20px;
+
+
+
+    }
+
+    footer {
+        width: 100%;
+        margin: 0;
+
+    }
+
+
+
+
+    .image {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    li {
+       padding: 0;
+     
+       
+
+    }
+
+    ul {
+       padding-right: 20px;
+        
+      
+
+    }
+
+
+
+
 }
