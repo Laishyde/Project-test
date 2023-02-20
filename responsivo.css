@@ -26,10 +26,11 @@
     .wrap {
         width: 10%;
         height: 100px;
+     
     }
 
     .information {
-        width: 100%;
+        width: 50%;
         text-align: center;
     }
 
@@ -51,6 +52,14 @@
         justify-content: center;
         display: flex;
         flex-direction: column;
+       
+    }
+    .image:hover{
+        -webkit-transform: none;
+            transform: none;
+    }
+    li{
+        padding: 0;
     }
 
     
